@@ -13,6 +13,7 @@ public class Main {
             case 5 -> task5.run();
             case 6 -> task6.run();
             case 7 -> task7.run();
+            case 8 -> task8.run();
             default -> System.out.println("Такого задания нет :(");
         }
     }
