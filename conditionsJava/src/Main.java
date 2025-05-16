@@ -1,5 +1,12 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите номер задания (1–12):");
+        int choice = scanner.nextInt();
+        switch (choice) {
+            default -> System.out.println("Такого задания нет :(");
+        }
     }
 }
