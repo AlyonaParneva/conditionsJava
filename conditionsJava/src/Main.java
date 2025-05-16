@@ -6,6 +6,7 @@ public class Main {
         System.out.println("Введите номер задания (1–12):");
         int choice = scanner.nextInt();
         switch (choice) {
+            case 11 -> task11.run();
             default -> System.out.println("Такого задания нет :(");
         }
     }
