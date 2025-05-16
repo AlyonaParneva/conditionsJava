@@ -10,6 +10,7 @@ public class Main {
             case 2 -> task2.run();
             case 3 -> task3.run();
             case 4 -> task4.run();
+            case 5 -> task5.run();
             default -> System.out.println("Такого задания нет :(");
         }
     }
